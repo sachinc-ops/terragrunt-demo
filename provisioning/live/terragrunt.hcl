@@ -14,7 +14,7 @@ locals {
   # Define common tags for all resources
   common_tags = {
     Terraform_repo = format(
-      "https://github.com/sachinc-ops/tree/master/%s/provisioning/live/%s",
+      "https://github.com/sachinc-ops/%s/tree/master/provisioning/live/%s",
       local.repo_name,
       path_relative_to_include()
     )

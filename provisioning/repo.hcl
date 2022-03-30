@@ -1,5 +1,5 @@
 locals {
   # Github repo details
-  repo_name           = "terragrunt_demo"
+  repo_name           = "terragrunt-demo"
   project             = "demo"
 }
