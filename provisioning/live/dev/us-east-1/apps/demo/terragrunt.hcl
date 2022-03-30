@@ -16,8 +16,4 @@ inputs = {
   ami_name               = "demo_image"
   ec2_name               = format("%s-demo-ec2-%s", include.root.locals.prj, include.root.locals.env)
   
-  artifact_bucket_config = {
-    name       = format("%s-artifacts-demo-%s", include.root.locals.prj, include.root.locals.env)
-    versioning = false
-  }
 }
