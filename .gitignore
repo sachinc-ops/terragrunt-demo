@@ -1,0 +1,13 @@
+# ignore all local terraform build related files directories
+**/.terraform/*
+**/.terragrunt-cache/*
+*.tfstate
+*.tfstate.*
+.terraformrc
+*.tfvars
+*_override.tf
+*_override.tf.json
+override.tf
+override.tf.json
+terraform.rc
+crash.log

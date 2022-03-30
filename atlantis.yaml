@@ -1,0 +1,9 @@
+version: 3
+automerge: false
+parallel_apply: false
+parallel_plan: false
+projects:
+- dir: provisioning/live/dev/us-east-1/apps/demo
+  workflow: terragrunt
+  autoplan:
+    enabled: false
